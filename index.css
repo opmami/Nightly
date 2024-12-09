@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+
+.contentt, .textt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  color: #fff;
+}
+
+.contentt {
+  background-color: #1A1F3E;
+  gap: 20px;
+}
+
+.contentt img{
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 15px 50px;
+    background-color: #6067F9;
+    font-size: 0.95rem;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.restore {
+    background-color: #2B344D;
+}
+
+.social {
+    background: #F7F7F7;
+    color: #000;
+}
+.textt {
+  background-color: #0F0F1A;
+  padding: 0 50px;
+}
+
+.textt h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}   
+
+.textt h1 span {
+  color: #6067F9;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btns .back{
+    background-color: #2B344D;
+    text-align: center;
+}
+
+form textarea{
+    border-radius: 20px;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        display: block;
+    }
+  .contentt {
+    width: 100%;
+    padding: 10px;
+  }
+  .textt {
+    width: 100%;
+  }
+    
+  .btn{
+    width: 80%;
+  }
+
+  form textarea{
+    width: 100%;
+  }
+}
