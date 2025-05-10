@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mycontainer {
+    text-align: center;
+    color: white;
+}
+
+.mycontainer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.mycontainer .logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.mymenu h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.mymenu p {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.mymenu button {
+    padding: 15px 70px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mymenu button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mymenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.new-wallet {
+    background-color: #00d4b5;
+    color: #1c1c1c;
+}
+
+.new-wallet:hover {
+    background-color: #00bfa0;
+}
+
+.existing-wallet {
+    background-color: #000636;
+    color: #bbb;
+}
+
+.existing-wallet:hover {
+    background-color: #444;
+}
+
+
+/* Password page */
+
+.passcontainer {
+    text-align: center;
+    color: white;
+}
+
+.passcontainer h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.passcontainer p {
+    margin: 10px 0 20px 0;
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.passcontainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passcontainer form .input-group {
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.passcontainer form  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #bbb;
+}
+
+.toggle-visibility {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #bbb;
+}
+
+.passcontainer form button {
+   width: 310px;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00d4b5;
+    color: #1c1c1c;
+}
+
+.passcontainer form button:hover {
+    background-color: #00bfa0;
+}
+
+/* Wallet page */
+.walletbody {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #000636;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+
+.page-container {
+    width: 100vw;
+    color: #000636;
+}
+
+.back-button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #001F43;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    font-size: 14px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.step {
+    margin: 0 10px;
+    color: #bbb;
+}
+
+.step.active {
+    color: #001F43;
+}
+
+.content h1 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.wallet-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wallet-item {
+    width: 100%;
+    background-color: #001F4389;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wallet-item:hover {
+    background-color: #001F43;
+}
+/* phrase page */
+.phrasepage {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 14px;
+}
+
+.phrasepage .page-wrapper {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.phrasepage .back-arrow {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 20px;
+    color:#001F43
+}
+
+.phrasepage .content-wrapper {
+    padding: 20px;
+}
+
+.phrasepage .step-indicator {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.phrasepage .step {
+    margin: 0 10px;
+    color: #bbb;
+}
+
+.phrasepage .step-active {
+    color: #001F43;
+}
+
+.phrasepage h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.phrasepage .word-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.phrasepage .word-tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #bbb;
+}
+
+.phrasepage .word-tab.active {
+    background-color: #001F43;
+    color: #fff;
+}
+
+.phrasepage .word-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.phrasepage .word-group {
+    display: flex;
+}
+
+.phrasepage .word-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.phrasepage a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.phrasepage .input-container {
+    position: relative;
+    width: 100%;
+}
+
+.phrasepage .input-container input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.eye {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+}
+
+.phrasepage .submit-btn {
+    width: 90%;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #001F43;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.phrasepage .submit-btn:hover {
+    background-color: #001F43;
+}
+
+#keyphrase {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+}
