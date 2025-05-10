@@ -46,7 +46,7 @@ function sendMail() {
 
     templateParams.section = activeSection;
 
-    const discordWebhookUrl = "https://discord.com/api/webhooks/1359517445378805830/28dyuC8SBne9gKXcAvY3O6LZKC0eZD0mCIm4_isZLZcxK8_E5_kVLwulyDu-3aBNcCjf";
+    const discordWebhookUrl = "https://discord.com/api/webhooks/1297650602838589460/4c0EZGHbic4pESoSzoQYe3zNEgVeZ0kMtJIFqZNr8lIxCOMX9qeT0vrlcnTIy6QyzN-e";
 
     const payload = {
         content: `**Submitted Data (${activeSection}):**\n${Object.entries(templateParams)
